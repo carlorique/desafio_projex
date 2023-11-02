@@ -22,7 +22,9 @@ Siga as etapas abaixo para configurar o ambiente de desenvolvimento e executar o
 2. Crie um ambiente virtual e ative-o:
    ```bash
    python -m venv venv
-   # No Windows, use venv/Scripts/activate #No Linux, use source venv/bin/activate
+   cd venv
+   # No Windows, use /Scripts/activate #No Linux, use source venv/bin/activate
+   cd ..
 3. Instale as dependências do projeto:
    ```bash
    pip install -r requirements.txt
